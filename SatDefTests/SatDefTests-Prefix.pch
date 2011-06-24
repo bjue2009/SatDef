@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SatDefTests' target in the 'SatDefTests' project
+//
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+#endif

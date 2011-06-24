@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724FAF2913B52919006DB32F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2813B52919006DB32F /* UIKit.framework */; };
+		724FAF2B13B52919006DB32F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2A13B52919006DB32F /* Foundation.framework */; };
+		724FAF2D13B52919006DB32F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2C13B52919006DB32F /* CoreGraphics.framework */; };
+		724FAF2F13B52919006DB32F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2E13B52919006DB32F /* QuartzCore.framework */; };
+		724FAF3113B52919006DB32F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF3013B52919006DB32F /* OpenGLES.framework */; };
+		724FAF3713B52919006DB32F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF3513B52919006DB32F /* InfoPlist.strings */; };
+		724FAF3A13B52919006DB32F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF3913B52919006DB32F /* main.m */; };
+		724FAF3D13B52919006DB32F /* SatDefAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF3C13B52919006DB32F /* SatDefAppDelegate.m */; };
+		724FAF4013B52919006DB32F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF3E13B52919006DB32F /* MainWindow.xib */; };
+		724FAF4213B52919006DB32F /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF4113B52919006DB32F /* Shader.fsh */; };
+		724FAF4413B52919006DB32F /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF4313B52919006DB32F /* Shader.vsh */; };
+		724FAF4713B52919006DB32F /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF4613B52919006DB32F /* EAGLView.m */; };
+		724FAF4A13B52919006DB32F /* SatDefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF4913B52919006DB32F /* SatDefViewController.m */; };
+		724FAF4D13B5291A006DB32F /* SatDefViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF4B13B5291A006DB32F /* SatDefViewController.xib */; };
+		724FAF5413B5291A006DB32F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2813B52919006DB32F /* UIKit.framework */; };
+		724FAF5513B5291A006DB32F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2A13B52919006DB32F /* Foundation.framework */; };
+		724FAF5613B5291A006DB32F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724FAF2C13B52919006DB32F /* CoreGraphics.framework */; };
+		724FAF5E13B5291A006DB32F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF5C13B5291A006DB32F /* InfoPlist.strings */; };
+		724FAF6113B5291A006DB32F /* SatDefTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF6013B5291A006DB32F /* SatDefTests.h */; };
+		724FAF6313B5291A006DB32F /* SatDefTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF6213B5291A006DB32F /* SatDefTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		724FAF5713B5291A006DB32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 724FAF1B13B52919006DB32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724FAF2313B52919006DB32F;
+			remoteInfo = SatDef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		724FAF2413B52919006DB32F /* SatDef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatDef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724FAF2813B52919006DB32F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		724FAF2A13B52919006DB32F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		724FAF2C13B52919006DB32F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		724FAF2E13B52919006DB32F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		724FAF3013B52919006DB32F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		724FAF3413B52919006DB32F /* SatDef-Info.plist */ = {isa = PBXFileReference; path = "SatDef-Info.plist"; sourceTree = "<group>"; };
+		724FAF3613B52919006DB32F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		724FAF3813B52919006DB32F /* SatDef-Prefix.pch */ = {isa = PBXFileReference; path = "SatDef-Prefix.pch"; sourceTree = "<group>"; };
+		724FAF3913B52919006DB32F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		724FAF3B13B52919006DB32F /* SatDefAppDelegate.h */ = {isa = PBXFileReference; path = SatDefAppDelegate.h; sourceTree = "<group>"; };
+		724FAF3C13B52919006DB32F /* SatDefAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatDefAppDelegate.m; sourceTree = "<group>"; };
+		724FAF3F13B52919006DB32F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		724FAF4113B52919006DB32F /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		724FAF4313B52919006DB32F /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		724FAF4513B52919006DB32F /* EAGLView.h */ = {isa = PBXFileReference; path = EAGLView.h; sourceTree = "<group>"; };
+		724FAF4613B52919006DB32F /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		724FAF4813B52919006DB32F /* SatDefViewController.h */ = {isa = PBXFileReference; path = SatDefViewController.h; sourceTree = "<group>"; };
+		724FAF4913B52919006DB32F /* SatDefViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatDefViewController.m; sourceTree = "<group>"; };
+		724FAF4C13B5291A006DB32F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SatDefViewController.xib; sourceTree = "<group>"; };
+		724FAF5313B5291A006DB32F /* SatDefTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatDefTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		724FAF5B13B5291A006DB32F /* SatDefTests-Info.plist */ = {isa = PBXFileReference; path = "SatDefTests-Info.plist"; sourceTree = "<group>"; };
+		724FAF5D13B5291A006DB32F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		724FAF5F13B5291A006DB32F /* SatDefTests-Prefix.pch */ = {isa = PBXFileReference; path = "SatDefTests-Prefix.pch"; sourceTree = "<group>"; };
+		724FAF6013B5291A006DB32F /* SatDefTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatDefTests.h; sourceTree = "<group>"; };
+		724FAF6213B5291A006DB32F /* SatDefTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatDefTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		724FAF2113B52919006DB32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724FAF2913B52919006DB32F /* UIKit.framework in Frameworks */,
+				724FAF2B13B52919006DB32F /* Foundation.framework in Frameworks */,
+				724FAF2D13B52919006DB32F /* CoreGraphics.framework in Frameworks */,
+				724FAF2F13B52919006DB32F /* QuartzCore.framework in Frameworks */,
+				724FAF3113B52919006DB32F /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724FAF4F13B5291A006DB32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724FAF5413B5291A006DB32F /* UIKit.framework in Frameworks */,
+				724FAF5513B5291A006DB32F /* Foundation.framework in Frameworks */,
+				724FAF5613B5291A006DB32F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724FAF1913B52919006DB32F = {
+			isa = PBXGroup;
+			children = (
+				724FAF3213B52919006DB32F /* SatDef */,
+				724FAF5913B5291A006DB32F /* SatDefTests */,
+				724FAF2713B52919006DB32F /* Frameworks */,
+				724FAF2513B52919006DB32F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		724FAF2513B52919006DB32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724FAF2413B52919006DB32F /* SatDef.app */,
+				724FAF5313B5291A006DB32F /* SatDefTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724FAF2713B52919006DB32F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				724FAF2813B52919006DB32F /* UIKit.framework */,
+				724FAF2A13B52919006DB32F /* Foundation.framework */,
+				724FAF2C13B52919006DB32F /* CoreGraphics.framework */,
+				724FAF2E13B52919006DB32F /* QuartzCore.framework */,
+				724FAF3013B52919006DB32F /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		724FAF3213B52919006DB32F /* SatDef */ = {
+			isa = PBXGroup;
+			children = (
+				724FAF3B13B52919006DB32F /* SatDefAppDelegate.h */,
+				724FAF3C13B52919006DB32F /* SatDefAppDelegate.m */,
+				724FAF3E13B52919006DB32F /* MainWindow.xib */,
+				724FAF4113B52919006DB32F /* Shader.fsh */,
+				724FAF4313B52919006DB32F /* Shader.vsh */,
+				724FAF4513B52919006DB32F /* EAGLView.h */,
+				724FAF4613B52919006DB32F /* EAGLView.m */,
+				724FAF4813B52919006DB32F /* SatDefViewController.h */,
+				724FAF4913B52919006DB32F /* SatDefViewController.m */,
+				724FAF4B13B5291A006DB32F /* SatDefViewController.xib */,
+				724FAF3313B52919006DB32F /* Supporting Files */,
+			);
+			path = SatDef;
+			sourceTree = "<group>";
+		};
+		724FAF3313B52919006DB32F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				724FAF3413B52919006DB32F /* SatDef-Info.plist */,
+				724FAF3513B52919006DB32F /* InfoPlist.strings */,
+				724FAF3813B52919006DB32F /* SatDef-Prefix.pch */,
+				724FAF3913B52919006DB32F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		724FAF5913B5291A006DB32F /* SatDefTests */ = {
+			isa = PBXGroup;
+			children = (
+				724FAF6013B5291A006DB32F /* SatDefTests.h */,
+				724FAF6213B5291A006DB32F /* SatDefTests.m */,
+				724FAF5A13B5291A006DB32F /* Supporting Files */,
+			);
+			path = SatDefTests;
+			sourceTree = "<group>";
+		};
+		724FAF5A13B5291A006DB32F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				724FAF5B13B5291A006DB32F /* SatDefTests-Info.plist */,
+				724FAF5C13B5291A006DB32F /* InfoPlist.strings */,
+				724FAF5F13B5291A006DB32F /* SatDefTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724FAF2313B52919006DB32F /* SatDef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724FAF6613B5291A006DB32F /* Build configuration list for PBXNativeTarget "SatDef" */;
+			buildPhases = (
+				724FAF2013B52919006DB32F /* Sources */,
+				724FAF2113B52919006DB32F /* Frameworks */,
+				724FAF2213B52919006DB32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatDef;
+			productName = SatDef;
+			productReference = 724FAF2413B52919006DB32F /* SatDef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		724FAF5213B5291A006DB32F /* SatDefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724FAF6913B5291A006DB32F /* Build configuration list for PBXNativeTarget "SatDefTests" */;
+			buildPhases = (
+				724FAF4E13B5291A006DB32F /* Sources */,
+				724FAF4F13B5291A006DB32F /* Frameworks */,
+				724FAF5013B5291A006DB32F /* Resources */,
+				724FAF5113B5291A006DB32F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724FAF5813B5291A006DB32F /* PBXTargetDependency */,
+			);
+			name = SatDefTests;
+			productName = SatDefTests;
+			productReference = 724FAF5313B5291A006DB32F /* SatDefTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		724FAF1B13B52919006DB32F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = bjued;
+			};
+			buildConfigurationList = 724FAF1E13B52919006DB32F /* Build configuration list for PBXProject "SatDef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 724FAF1913B52919006DB32F;
+			productRefGroup = 724FAF2513B52919006DB32F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724FAF2313B52919006DB32F /* SatDef */,
+				724FAF5213B5291A006DB32F /* SatDefTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724FAF2213B52919006DB32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724FAF3713B52919006DB32F /* InfoPlist.strings in Resources */,
+				724FAF4013B52919006DB32F /* MainWindow.xib in Resources */,
+				724FAF4213B52919006DB32F /* Shader.fsh in Resources */,
+				724FAF4413B52919006DB32F /* Shader.vsh in Resources */,
+				724FAF4D13B5291A006DB32F /* SatDefViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724FAF5013B5291A006DB32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724FAF5E13B5291A006DB32F /* InfoPlist.strings in Resources */,
+				724FAF6113B5291A006DB32F /* SatDefTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		724FAF5113B5291A006DB32F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		724FAF2013B52919006DB32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724FAF3A13B52919006DB32F /* main.m in Sources */,
+				724FAF3D13B52919006DB32F /* SatDefAppDelegate.m in Sources */,
+				724FAF4713B52919006DB32F /* EAGLView.m in Sources */,
+				724FAF4A13B52919006DB32F /* SatDefViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724FAF4E13B5291A006DB32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724FAF6313B5291A006DB32F /* SatDefTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		724FAF5813B5291A006DB32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724FAF2313B52919006DB32F /* SatDef */;
+			targetProxy = 724FAF5713B5291A006DB32F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		724FAF3513B52919006DB32F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724FAF3613B52919006DB32F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		724FAF3E13B52919006DB32F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724FAF3F13B52919006DB32F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		724FAF4B13B5291A006DB32F /* SatDefViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724FAF4C13B5291A006DB32F /* en */,
+			);
+			name = SatDefViewController.xib;
+			sourceTree = "<group>";
+		};
+		724FAF5C13B5291A006DB32F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724FAF5D13B5291A006DB32F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		724FAF6413B5291A006DB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		724FAF6513B5291A006DB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		724FAF6713B5291A006DB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatDef/SatDef-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SatDef/SatDef-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		724FAF6813B5291A006DB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatDef/SatDef-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SatDef/SatDef-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		724FAF6A13B5291A006DB32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SatDef.app/SatDef";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatDefTests/SatDefTests-Prefix.pch";
+				INFOPLIST_FILE = "SatDefTests/SatDefTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		724FAF6B13B5291A006DB32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SatDef.app/SatDef";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SatDefTests/SatDefTests-Prefix.pch";
+				INFOPLIST_FILE = "SatDefTests/SatDefTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		724FAF1E13B52919006DB32F /* Build configuration list for PBXProject "SatDef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724FAF6413B5291A006DB32F /* Debug */,
+				724FAF6513B5291A006DB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724FAF6613B5291A006DB32F /* Build configuration list for PBXNativeTarget "SatDef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724FAF6713B5291A006DB32F /* Debug */,
+				724FAF6813B5291A006DB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		724FAF6913B5291A006DB32F /* Build configuration list for PBXNativeTarget "SatDefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724FAF6A13B5291A006DB32F /* Debug */,
+				724FAF6B13B5291A006DB32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 724FAF1B13B52919006DB32F /* Project object */;
+}
