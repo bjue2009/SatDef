@@ -27,6 +27,7 @@
 		724FAF5E13B5291A006DB32F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF5C13B5291A006DB32F /* InfoPlist.strings */; };
 		724FAF6113B5291A006DB32F /* SatDefTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 724FAF6013B5291A006DB32F /* SatDefTests.h */; };
 		724FAF6313B5291A006DB32F /* SatDefTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF6213B5291A006DB32F /* SatDefTests.m */; };
+		724FAF6E13B5326B006DB32F /* Polar.m in Sources */ = {isa = PBXBuildFile; fileRef = 724FAF6D13B5326B006DB32F /* Polar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		724FAF5F13B5291A006DB32F /* SatDefTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SatDefTests-Prefix.pch"; sourceTree = "<group>"; };
 		724FAF6013B5291A006DB32F /* SatDefTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SatDefTests.h; sourceTree = "<group>"; };
 		724FAF6213B5291A006DB32F /* SatDefTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SatDefTests.m; sourceTree = "<group>"; };
+		724FAF6C13B5326B006DB32F /* Polar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polar.h; sourceTree = "<group>"; };
+		724FAF6D13B5326B006DB32F /* Polar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				724FAF4913B52919006DB32F /* SatDefViewController.m */,
 				724FAF4B13B5291A006DB32F /* SatDefViewController.xib */,
 				724FAF3313B52919006DB32F /* Supporting Files */,
+				724FAF6C13B5326B006DB32F /* Polar.h */,
+				724FAF6D13B5326B006DB32F /* Polar.m */,
 			);
 			path = SatDef;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				724FAF3D13B52919006DB32F /* SatDefAppDelegate.m in Sources */,
 				724FAF4713B52919006DB32F /* EAGLView.m in Sources */,
 				724FAF4A13B52919006DB32F /* SatDefViewController.m in Sources */,
+				724FAF6E13B5326B006DB32F /* Polar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
